@@ -6,7 +6,7 @@ menu.onclick = () => {
     navbar.classList.toggle('active');
 }
 
-menu.onscroll = () => {
+window.onscroll = () => {
     menu.classList.remove('bx-x');
     navbar.classList.remove('active');
 }
